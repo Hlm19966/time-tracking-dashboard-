@@ -53,3 +53,245 @@ p {
 
 /*end of css rest*/
 
+body {
+    margin: 0 auto;
+    background-color: var(--Very-dark-blue);
+    font-family: "Rubik", serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+/*profile card*/
+
+.profile-card {
+  width: 20.483rem;
+  background-color: var(--Dark-blue);
+  border-radius: 0.813rem;
+  margin-bottom: 1.875rem;
+}
+
+.profile-card-header {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1.125rem;
+    border-radius: 0.813rem;
+    padding: 1.875rem 0rem 1.875rem  0.063rem;
+}
+
+.img-responsive {
+    width: 3.75rem;
+    height: 3.75rem;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    margin-left: 1.75rem;
+}
+
+.name-section p {
+    color: #ffff;
+    opacity: 0.5;
+    font-family: "Rubik", serif;
+    font-size: 0.875rem;
+}
+
+.name-section div {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.profile-card-main-1 {
+   display: flex;
+   justify-content: space-around;
+   gap: 0.188rem;
+}
+
+.profile-card-main-1 p {
+    font-size: 1.125rem;
+    color: whitesmoke;
+    font-weight: 400;
+    opacity: 0.7;
+    padding: 1.25rem 0;
+}
+
+/*end of the profile card*/
+
+/*cards style*/
+.card {
+    width: 20.483rem;
+    border-radius: 0.813rem;
+    margin-bottom: 1.875rem;
+    background-color: var(--Dark-blue);
+    color: whitesmoke;
+    position: relative;
+}
+
+.img-fluid {
+    position: absolute;
+    bottom: -0.313rem;
+    right: 1rem;
+}
+
+ .exercise-card .img-fluid{
+    bottom: 0.625rem;
+}
+
+.social-card .img-fluid {
+    top: -0.938rem;
+}
+
+.self-care-card .img-fluid {
+    bottom: 0.625rem;
+}
+.card-header {
+   position: relative;
+   z-index: 1;
+   display: flex;
+   justify-content: end;
+   border-radius: 0.813rem 0.813rem 0 0;
+   height: 4rem;
+   overflow: hidden;
+}
+
+.card-main {
+    position: relative;
+    z-index: 2;
+    border-radius: 0.813rem;
+    background-color: var(--Dark-blue);
+    padding: 0.896rem;
+    margin-top: -1.688rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0.6255rem;
+}
+
+.ellipsis {
+    align-self: flex-end;
+    margin-bottom: 1.438rem;
+}
+ 
+.title {
+    font-size: 1.125rem;
+    font-weight: 400;
+    
+}
+
+.hours {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.previous {
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+/*end of the cards style*/
+
+/*cards color and adjusment*/
+
+.work-card{
+    background-color: var(--Light-red-work);
+}
+
+.play-card {
+    background-color: var(--Soft-blue-play);
+}
+
+.study-card {
+    background-color: var(--Light-red-study);
+}
+
+.exercise-card {
+    background-color: var(--Lime-green-exercise);
+}
+
+.social-card {
+    background-color: var(--Violet-social);
+}
+
+.self-care-card {
+    background-color: var(--Soft-orang-self-care);
+}
+
+/*end of the cards color and adjusment*/
+
+
+@media only screen and (min-width:59.25rem) {
+
+    main {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(4, 275px);
+        gap: 20px;
+        grid-template-rows: auto;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: normal;
+    
+    }
+
+    .profile-card {
+        width: 100%;
+        grid-row: 1/4;
+        margin-bottom: 0;
+    }
+    
+    .profile-card-header {
+        flex-direction: column;
+        align-items: start;
+        gap: 1.875rem;
+        padding: 2.063rem 2.188rem 4.688rem 1.875rem;
+        
+    }
+
+    .img-responsive {
+        width: 4.75rem;
+        height: 4.75rem;
+        margin-left: -0.25rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .profile-card-main-1 {
+        flex-direction: column;
+        padding: 25px 11px 45px 30px;
+        gap: 13px;
+
+    }
+
+    .profile-card-main-1 p {
+        padding: 0;
+    }
+
+    .name-section div {
+        font-size: 2.375rem;
+    }
+
+    .card {
+        width: 270px;
+        margin-bottom: 0;
+    }
+
+   
+
+   
+
+}
+
+
+
