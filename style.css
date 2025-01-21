@@ -256,7 +256,7 @@ main {
     main {
         max-width: 75rem;
         display: grid;
-        grid-template-columns: repeat(4, 14.5rem);
+        grid-template-columns: repeat(4, 15.5rem);
         gap: 20px;
         grid-template-rows: auto auto;
         margin: 0 auto;
@@ -301,7 +301,7 @@ main {
     }
 
     .card {
-        width: 14.5rem;
+        width: 15.5rem;
         margin-bottom: 0;
     }
 
