@@ -28,6 +28,7 @@ function displayData(data, timeframes) {
   
 }
 
+
 document.getElementById("daily").addEventListener("click", () => displayData(globalData, 'daily'));
 document.getElementById("weekly").addEventListener("click", () => displayData(globalData, 'weekly'));
 document.getElementById("monthly").addEventListener("click", () => displayData(globalData, 'monthly'));

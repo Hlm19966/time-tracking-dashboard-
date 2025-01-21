@@ -123,8 +123,12 @@ main {
 }
 
 .links {
-   color: #fff;
+   color: #ffffff8f;
    text-decoration: none;
+}
+
+.links:hover {
+   color: #fff;
 }
 
 /*end of the profile card*/
@@ -248,13 +252,13 @@ main {
     main {
         max-width: 75rem;
         display: grid;
-        grid-template-columns: repeat(4, 17.5rem);
+        grid-template-columns: repeat(4, 15.5rem);
         gap: 20px;
         grid-template-rows: auto auto;
         margin: 0 auto;
         justify-content: center;
         align-items: normal;
-    
+        padding-top: 8rem;
     }
 
     .profile-card {
@@ -294,7 +298,7 @@ main {
     }
 
     .card {
-        width: 17.5rem;
+        width: 15.5rem;
         margin-bottom: 0;
     }
 
@@ -326,6 +330,7 @@ main {
 
     .previous {
         margin-top: -30px;
+
     }
 
 
